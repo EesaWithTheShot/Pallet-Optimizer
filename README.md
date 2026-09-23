@@ -1,13 +1,13 @@
 # Pallet Shipment Optimizer
 
-This is a program I built that figures out how to load boxes onto shipping pallets.
+This is a program I built for Summer 2026 internship that figures out how to load boxes onto shipping pallets.
 You give it your box sizes, quantities, and weights, plus your pallet dimensions and
 limits, and it tells you how to stack everything using as few pallets (and as little
 height) as it can without the stacks being unstable. Then you can walk around the
 result in a 3D model to actually see where each box goes.
 
-I made it because packing a pallet well genuinely saves money. Every extra pallet
-costs you, and a lot of freight is billed by the inch of height, so shaving a few
+I made it because packing a pallet well saves a lot of money and helps replenish more SKUs per shipment to Amazon. 
+Every extra pallet costs you, and a lot of freight is billed by the inch of height, so shaving a few
 inches off a stack adds up. Doing this by hand is tedious and it's easy to leave
 space on the table. It turns out packing boxes optimally is an NP-hard problem, so
 there's no quick formula for the perfect answer. Instead the program uses a few
