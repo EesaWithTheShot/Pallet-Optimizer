@@ -1,0 +1,8 @@
+name,length,width,height,quantity,box_weight,pad,allow_rotate,this_side_up
+MF,18,17,12,10,20,0,TRUE,FALSE
+RHDS,18,14,8,3,20,0,TRUE,FALSE
+RR,22,18,14,11,40,0,TRUE,FALSE
+RR1,21,18,10,7,28,0,TRUE,FALSE
+RR2,22,19,12,72,35,0,TRUE,FALSE
+RSM,14,10,10,4,14,0,TRUE,FALSE
+SM,12,9,9,6,10,0,TRUE,FALSE
